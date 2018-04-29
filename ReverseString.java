@@ -1,3 +1,5 @@
+// Question - https://leetcode.com/problems/reverse-string/
+
 import java.util.*;
 
 public class ReverseString {
@@ -18,7 +20,6 @@ public class ReverseString {
         System.out.print("Enter a String:");
 
         Scanner sc = new Scanner(System.in);
-//        String str1 = new String();        // Why?
         String str1 = sc.nextLine();
 
         String result = reverseString(str1);
