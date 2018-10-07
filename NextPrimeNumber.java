@@ -1,3 +1,6 @@
+// Next Prime Number
+// Have the program find prime numbers until the user chooses to stop asking for the next one.
+
 import java.util.*;
 
 public class NextPrimeNumber {
@@ -43,8 +46,3 @@ public class NextPrimeNumber {
         }
     }
 }
-
-
-// user enters a number
-// if it's prime, display it.
-// call getNextPrime(). look for next prime number. display that. ask the user if they want to display another, display that.

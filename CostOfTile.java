@@ -1,3 +1,7 @@
+// Cost of Tile to Cover W x H Floor
+// Calculate the total cost of tile it would take to cover a floor plan of width and height,
+// using a cost entered by the user.
+
 import java.util.*;
 
 public class CostOfTile {
@@ -15,7 +19,6 @@ public class CostOfTile {
         System.out.print("Enter cost in USD per sq. m: ");
         cost = sc.nextDouble();
 
-//        ans = ;
         System.out.println("Cost of tiling: $" + w*h*cost);
     }
 }
